@@ -21,7 +21,7 @@ export class ReRateMasterService {
   daypass: boolean;
   domesticeligibility: boolean;
   planname: string;
-  cost: number;
+  cost: string;
   ppurates: boolean;
   adjustmentrate: number;
   roamingcharges: number;
@@ -39,7 +39,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     daypass: false,
     domesticeligibility: false,
     planname: "",
-    cost: 220,
+    cost: '',
       ppurates: true,
       adjustmentrate: 1000,
       roamingcharges : 1000
@@ -52,7 +52,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     daypass: false,
     domesticeligibility: false,
     planname: "",
-    cost: 220,
+    cost:'',
       ppurates: true,
       adjustmentrate: 1000,
       roamingcharges : 1000
@@ -65,7 +65,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     daypass: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,
+    cost:'',
       ppurates: true,
       adjustmentrate: 1000,
       roamingcharges : 1000
@@ -78,7 +78,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     daypass: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,
+    cost:'',
     ppurates: true,
     adjustmentrate: 1000,
     roamingcharges: 1000
@@ -92,7 +92,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   },
@@ -105,7 +105,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   },
@@ -118,7 +118,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   },
@@ -131,7 +131,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   },
@@ -144,7 +144,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   },
@@ -157,7 +157,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   },
@@ -170,7 +170,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   },
@@ -183,7 +183,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   },
@@ -196,7 +196,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   },
@@ -209,7 +209,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   },
@@ -222,7 +222,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   },
@@ -235,7 +235,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   },
@@ -248,7 +248,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   },
@@ -261,7 +261,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   },
@@ -274,7 +274,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   },  
@@ -287,7 +287,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   },  
@@ -300,7 +300,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   },  
@@ -313,7 +313,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -326,7 +326,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -339,7 +339,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -352,7 +352,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -365,7 +365,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -378,7 +378,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -391,7 +391,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -404,7 +404,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -417,7 +417,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -430,7 +430,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -443,7 +443,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -456,7 +456,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -469,7 +469,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -482,7 +482,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -495,7 +495,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -508,7 +508,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -521,7 +521,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -534,7 +534,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -547,7 +547,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -560,7 +560,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -573,7 +573,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -586,7 +586,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -599,7 +599,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -612,7 +612,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   },  {
@@ -624,7 +624,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -637,7 +637,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -650,7 +650,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -663,7 +663,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -676,7 +676,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -689,7 +689,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -702,7 +702,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -715,7 +715,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -728,7 +728,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -741,7 +741,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -754,7 +754,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -767,7 +767,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -780,7 +780,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -793,7 +793,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -806,7 +806,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -819,7 +819,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -832,7 +832,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -845,7 +845,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   },  {
@@ -857,7 +857,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -870,7 +870,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -884,7 +884,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -897,7 +897,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -910,7 +910,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -923,7 +923,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -936,7 +936,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -949,7 +949,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -962,7 +962,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -975,7 +975,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -988,7 +988,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1001,7 +1001,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: false,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1014,7 +1014,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1027,7 +1027,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1040,7 +1040,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1053,7 +1053,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1066,7 +1066,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1079,7 +1079,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1092,7 +1092,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1105,7 +1105,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1118,7 +1118,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1131,7 +1131,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1144,7 +1144,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1158,7 +1158,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1171,7 +1171,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1184,7 +1184,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1197,7 +1197,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1211,7 +1211,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1224,7 +1224,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1237,7 +1237,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1250,7 +1250,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1263,7 +1263,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1276,7 +1276,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1289,7 +1289,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1302,7 +1302,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1315,7 +1315,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1328,7 +1328,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1341,7 +1341,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1354,7 +1354,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1367,7 +1367,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1380,7 +1380,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1393,7 +1393,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1406,7 +1406,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1419,7 +1419,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1432,7 +1432,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1445,7 +1445,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1458,7 +1458,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1471,7 +1471,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1484,7 +1484,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1497,7 +1497,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1510,7 +1510,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1523,7 +1523,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1536,7 +1536,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1549,7 +1549,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1562,7 +1562,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1575,7 +1575,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1588,7 +1588,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1601,7 +1601,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1614,7 +1614,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1627,7 +1627,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1640,7 +1640,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1653,7 +1653,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1666,7 +1666,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1679,7 +1679,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1692,7 +1692,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1705,7 +1705,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1718,7 +1718,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1731,7 +1731,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1744,7 +1744,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1757,7 +1757,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1770,7 +1770,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1783,7 +1783,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1796,7 +1796,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1809,7 +1809,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1822,7 +1822,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1835,7 +1835,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1848,7 +1848,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1861,7 +1861,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1874,7 +1874,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1887,7 +1887,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1900,7 +1900,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1913,7 +1913,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1926,7 +1926,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1939,7 +1939,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1952,7 +1952,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1965,7 +1965,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1978,7 +1978,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -1991,7 +1991,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2004,7 +2004,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2017,7 +2017,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2030,7 +2030,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2043,7 +2043,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2056,7 +2056,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2069,7 +2069,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2082,7 +2082,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2095,7 +2095,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2108,7 +2108,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2121,7 +2121,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2134,7 +2134,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2147,7 +2147,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2160,7 +2160,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2173,7 +2173,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2186,7 +2186,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: false,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2199,7 +2199,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2212,7 +2212,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2225,7 +2225,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2238,7 +2238,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2251,7 +2251,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2264,7 +2264,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2277,7 +2277,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2290,7 +2290,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2304,7 +2304,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2318,7 +2318,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2332,7 +2332,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2346,7 +2346,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2360,7 +2360,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2374,7 +2374,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2388,7 +2388,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2402,7 +2402,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2416,7 +2416,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2430,7 +2430,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2444,7 +2444,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2458,7 +2458,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2472,7 +2472,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2487,7 +2487,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2501,7 +2501,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2515,7 +2515,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2529,7 +2529,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2544,7 +2544,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2558,7 +2558,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2572,7 +2572,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2587,7 +2587,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2602,7 +2602,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2616,7 +2616,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2630,7 +2630,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2644,7 +2644,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2658,7 +2658,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2673,7 +2673,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2687,7 +2687,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2700,7 +2700,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2714,7 +2714,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2728,7 +2728,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2742,7 +2742,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2756,7 +2756,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2770,7 +2770,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2785,7 +2785,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2798,7 +2798,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2812,7 +2812,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2825,7 +2825,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2838,7 +2838,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2851,7 +2851,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2864,7 +2864,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2877,7 +2877,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2890,7 +2890,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2903,7 +2903,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2916,7 +2916,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2929,7 +2929,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2942,7 +2942,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2955,7 +2955,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2968,7 +2968,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2981,7 +2981,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -2994,7 +2994,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -3007,7 +3007,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -3020,7 +3020,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -3033,7 +3033,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -3046,7 +3046,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -3059,7 +3059,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -3072,7 +3072,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -3085,7 +3085,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -3098,7 +3098,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -3111,7 +3111,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -3124,7 +3124,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -3137,7 +3137,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: true,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -3150,7 +3150,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -3163,7 +3163,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -3176,7 +3176,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -3189,7 +3189,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
@@ -3202,7 +3202,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     ppurates: true,
     domesticeligibility: false,
     planname: "",
-    cost: 220,      
+    cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   },   

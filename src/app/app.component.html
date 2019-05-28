@@ -13,7 +13,7 @@
         <div class="form-group">
             <label for="exampleFormControlSelect2">What country was visited?</label>
             <select  class="form-control" id="exampleFormControlSelect2" (change)="changeCountry($event)">
-              <option value="0">Please seclect an option via drop-down list</option>
+              <option value="0">Please select a country</option>
                 <option value="Afghanistan">Afghanistan</option>
                 <option id="Airlines (on-air)">Airlines (on-air)</option>
                 <option id="Aland Islands (Finland)">Aland Islands (Finland)</option>
@@ -70,6 +70,7 @@
                 <option value="Costa Rica">Costa Rica</option>
                 <option value="Cota D'Ivoire">Cote d'Ivoire</option>
                 <option value="Croatia">Croatia (Hrvatska)</option>
+                <option value="Cruise Ships">Cruise Ships</option>
                 <option value="Cuba">Cuba</option>
                 <option value="Cyprus">Cyprus</option>
                 <option value="Czech Republic">Czech Republic</option>
@@ -260,9 +261,9 @@
     </div>
     <div class="col-sm-6">
         <div class="form-group">
-            <label for="exampleFormControlSelect2">Did they have a Plan?</label>
-            <select class="form-control" id="exampleFormControlSelect2">
-              <option value="0">Please select an option via drop down</option>
+            <label for="exampleFormControlSelect">Did they have a plan?</label>
+            <select class="form-control" id="exampleFormControlSelect">
+              <option value="0">Please select the plan</option>
               <option value="No plan">No plan</option>
               <option value="internationlRoaming- Standard">InternationalRoaming-Standard</option>
               <option value="internationlRoaming- Expanded">InternationalRoaming-Expanded</option>
@@ -273,7 +274,7 @@
               <option value="at&t Cruise Talk ,Text& Data($100)">AT&T Cruise Talk ,Text& Data($100)</option>   
               <option value="exipred-Crusie Ship Talk,Text&Data($120)">Exipred-Crusie Ship Talk,Text&Data($120)</option>   
               <option value="Roam Maxico">Roam Mexico</option>        
-              <option value="room North America">Roam North America</option>
+              <option value="room North America">Roam North America</option>              
               <option value="canada and Mexico 80 Traval Minutes">Canada and Mexico 80 Traval Minutes</option>
               <option value="canada and Mexico 200 Traval Minutes">Canada and Mexico 200 Traval Minutes</option>
               <option value="canada and Mexico 500 Traval Minutes">Canada and Mexico 500 Traval Minutes</option>
@@ -294,13 +295,13 @@
     </div>
     <div class="col-sm-3">
         <div class="form-check">
-  <div class="checkdiv grey400"><input type="checkbox" [checked] ="daypass" class="le-checkbox thisonetocheck" id='Intrnldypass' /><input placeholder=" International Day pass"></div> 
+  <div class="checkdiv grey400"><input type="checkbox" disabled [checked] ="daypass" class="le-checkbox thisonetocheck" id='Intrnldypass' /><input placeholder=" International Day Pass"></div> 
 					
           </div>
     </div>
     <div class="col-sm-3 padding-right-0">
         <div class="form-check">
-		 <div class="checkdiv grey400"><input type="checkbox" [checked]="ppurates" class="le-checkbox thisonetocheck" id='PayperUse' />
+		 <div class="checkdiv grey400"><input type="checkbox" disabled [checked]="ppurates" class="le-checkbox thisonetocheck" id='PayperUse' />
 		 <input placeholder=" Pay Per use(PPU) Rates">
 		 </div> 
             
@@ -308,7 +309,7 @@
     </div>
     <div class="col-sm-3">
         <div class="form-check">
-		<div class="checkdiv grey400"><input type="checkbox" [checked]="passport" class="le-checkbox thisonetocheck" id='ATtPassport' />
+		<div class="checkdiv grey400"><input type="checkbox" disabled [checked]="passport" class="le-checkbox thisonetocheck" id='ATtPassport' />
 		 <input placeholder="  AT&T Passport">
 		 </div>
            
@@ -317,8 +318,8 @@
       <div class="col-sm-3">
 	  
           <div class="form-check">
-              <div class="checkdiv grey400"><input type="checkbox" [checked]="wificall"  class="le-checkbox thisonetocheck" id='WifiCalling' />
-		 <input placeholder="  Wi-fi Calling">
+              <div class="checkdiv grey400"><input type="checkbox" disabled [checked]="wificall"  class="le-checkbox thisonetocheck" id='WifiCalling' />
+		 <input placeholder="  Wi-Fi Calling">
 		 </div>
 			  
             </div>
@@ -326,13 +327,13 @@
   </div>
   <div class="row" *ngIf="domesticeligibility">
     <div class="col-sm-12">
-        <p class="mt-2">Does the customer hava an eligibile domestic plan for international day pass ? <a href="#" class="color-red">(My CSP lik :Daypass article)</a></p>
+        <p class="mt-2">Does the customer have an eligible domestic plan for AT&T International Day Pass? <a href="#" class="color-red">(My CSP link :Daypass article)</a></p>
       </div>
         <div class="col-sm-4">
             <div class="form-group">
            
-                <select class="form-control" id="exampleFormControlSelect2" (change)="eligiblePlan($event)">
-                  <option id="">Please select Option</option>
+                <select class="form-control" id="EligibleFormControl" (change)="eligiblePlan($event)">
+                  <option id="">Please select daypass</option>
                   <option id="yes">Yes</option>
                   <option id="no">No</option>
                 </select>
@@ -357,27 +358,31 @@
     <tbody>
       <tr>
         <td>Voice Roaming Minutes</td>
-        <td class="padding-0"><input type="text" placeholder="Enter minutes" class="compact-input" /></td>
+        <td class="padding-0"><input type="text" placeholder="Enter minutes" id="VoiceRoamingMinutes" class="compact-input" (change)="calCulateFinalVal()" /></td>
         <td class="padding-0"><input type="text" class="compact-input" id="VoiceRoamingValue" /></td>
       </tr>
       <tr>
         <td>Text Messages (SMS)</td>
-        <td class="padding-0"><input type="text" placeholder="Enter Messages" class="compact-input" /></td>
+        <td class="padding-0"><input type="number" min="0" placeholder="Enter Messages" class="compact-input" /></td>
         <td class="padding-0"><input type="text" class="compact-input" id="TextMessagesValue" /></td>
       </tr>
       <tr>
         <td>Picture/video Messages (MMS)</td>
-        <td class="padding-0"><input type="text" placeholder="Enter Messages" class="compact-input" /></td>
+        <td class="padding-0"><input type="number" placeholder="Enter Messages" class="compact-input" /></td>
         <td class="padding-0"><input type="text" class="compact-input" id="PictureVideoValue" /></td>
       </tr>
       <tr>
         <td>Choose Data Usage Unit<select id="exampleFormControlSelect2" class="ml-4">
-          <option value="Kb">KB</option>
-          <option value="mb">MB</option>
-          <option value="gb">GB</option>          
+          <!--<option value="Kb">KB</option>
+          <option value="mb">MB</option>-->
+          <option value="gb" selected>GB</option>          
         </select></td>
-        <td class="padding-0"><input type="text" placeholder="Enter Data Usage" class="compact-input" /></td>
-        <td class="padding-0"><input type="text" class="compact-input" id="DataUsageKitValue" /></td>
+        <td class="padding-0">
+        <input type="number" min="0" placeholder="Enter Data Usage" class="compact-input" id="DataUsageInput" (change)="calCulateFinalVal()" />
+        </td>
+        <td class="padding-0">
+          <input type="text" class="compact-input" id="DataUsageKitValue" />
+        </td>
       </tr>
       <tr>
         <td colspan='2' class="text-center">Billed international feature charge</td>
@@ -385,7 +390,7 @@
       </tr>
       <tr>
         <td colspan='2' class="text-center">Days of Usage for International Day Pass</td>
-        <td class='padding-0 bg-grey'><input type="text" placeholder="" id="DayUsagetextbox" class="compact-input" disabled /></td>
+        <td class='padding-0 bg-grey'><input type="text" placeholder="" (change)="ChangeInternlPlans($event)" id="DayUsagetextbox" class="compact-input" disabled /></td>
       </tr>
       <tr>
         <td colspan='2' class="text-center">Total roaming charges on bill</td>
@@ -411,12 +416,12 @@
       <div class="adjustmentplanDiv">
         <div class="form-group" *ngIf="isShowBestPlan">
           <label for="BestRatePaln">Best rerate plan </label>
-          <input type="text" class="form-control" id="BestRatePaln" value="{{cost}}" placeholder="AT&T passport 1GB ($60)">
+          <input type="text" class="form-control" id="BestRatePaln" value="{{cost}}" >
         </div>
         <div class="form-group" *ngIf="isShowAvailableplans">
           <label for="AdditionalreRateSelect2">Available plans for rerate</label>
           <select class="form-control" id="AdditionalreRateSelect2">
-            <option id="0">please selct below option</option>
+            <option id="0">Please select plan</option>
             <option *ngFor="let plan of avialablePlans">
               {{plan}}
             </option>
@@ -426,7 +431,7 @@
         <div class="form-group" *ngIf="isShowoverridePlans">
           <label for="ManageOverridePlansSelect2">Manager override plans</label>
           <select class="form-control" id="ManageOverridePlansSelect2">
-            <option id="0">please select for below options</option>
+            <option id="0">Please select plan</option>
             <option id="0">International Day Pass </option>
             <option id="0">AT&T Passport 1G ($60)</option>
             <option id="0">AT&T Passport 3G ($120) </option>
@@ -434,12 +439,12 @@
         </div>
         <div class="form-group" *ngIf="isShownegotiatePlans">
           <label for="NegatiatePercentage">Negotiated percentage</label>
-          <input type="number" class="form-control" id="NegatiatePercentage" value="" max="100">
+          <input type="number" class="form-control" id="NegatiatePercentage" value="" max='100' min='0' (blur)='checkPercentage($event)'>
         </div>
       </div>
       
         <div class="rerateCalc-section" *ngIf="isShowRerateCalcOptions">
-          <h3>Rerate Calculator Options </h3>
+          <h3>  Rerate Calculator Options </h3>
           <p>Toggle additional options off or on to update rerate totals </p>
           <ul class="negaotaite-rules">
             <li>
@@ -473,7 +478,7 @@
     <div class="col-sm-3 d-flex justify-content-center align-items-center">
       <div class="row text-center">
         <div class="col-sm-12">
-          <button type="button" class="btn btn-applycharges btn-rerate">Apply charges</button>
+          <button type="button" class="btn btn-applycharges btn-rerate" id="ApplyChargeButton" (click)="applyCharges($event)">Apply charges</button>
         </div>
         <div class="col-sm-12 mt-3">
           <button type="button" class="btn btn-calculate btn-rerate" (click)="showreRateOptions($event)">Rerate options</button>
@@ -490,7 +495,7 @@
         </div>
         <div class="form-group">
           <label for="RemainingRoaming">Remaining roaming charges due <span class="small">(not including taxes)</span></label>
-          <input type="text" class="form-control" id="RemainingRoaming" value="{{roamingcharges}}">
+          <input type="text" class="form-control" id="RemainingRoaming" value="{{remaingRoamingCharges}}">
         </div>
         <div class="form-group"></div>
         <label for="Note to copy">Notes to copy<span class="small"></span></label>
