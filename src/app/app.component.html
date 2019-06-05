@@ -11,8 +11,8 @@
 <div class="row">
     <div class="col-sm-6">
         <div class="form-group">
-            <label for="exampleFormControlSelect2">What country was visited?</label>
-            <select  class="form-control" id="exampleFormControlSelect2" (change)="changeCountry($event)">
+            <label for="selecteCountryControl">What country was visited?</label>
+            <select  class="form-control" id="selecteCountryControl" (change)="changeCountry($event)">
               <option value="0">Please select a country</option>
                 <option value="Afghanistan">Afghanistan</option>
                 <option id="Airlines (on-air)">Airlines (on-air)</option>
@@ -363,18 +363,18 @@
       </tr>
       <tr>
         <td>Text Messages (SMS)</td>
-        <td class="padding-0"><input type="number" min="0" placeholder="Enter Messages" class="compact-input" /></td>
+        <td class="padding-0"><input type="number" min="0" placeholder="Enter Messages" class="compact-input" id="textMessages" (change)="calCulateFinalVal()" /></td>
         <td class="padding-0"><input type="text" class="compact-input" id="TextMessagesValue" /></td>
       </tr>
       <tr>
         <td>Picture/video Messages (MMS)</td>
-        <td class="padding-0"><input type="number" placeholder="Enter Messages" class="compact-input" /></td>
+        <td class="padding-0"><input type="number" placeholder="Enter Messages" class="compact-input" id="voiceMessages"  (change)="calCulateFinalVal()" /></td>
         <td class="padding-0"><input type="text" class="compact-input" id="PictureVideoValue" /></td>
       </tr>
       <tr>
-        <td>Choose Data Usage Unit<select id="exampleFormControlSelect2" class="ml-4">
-          <!--<option value="Kb">KB</option>
-          <option value="mb">MB</option>-->
+        <td>Choose Data Usage Unit<select id="selectDataChosePlan" class="ml-4">
+          <option value="Kb">KB</option>
+          <option value="mb">MB</option>
           <option value="gb" selected>GB</option>          
         </select></td>
         <td class="padding-0">
@@ -477,6 +477,9 @@
     </div>
     <div class="col-sm-3 d-flex justify-content-center align-items-center">
       <div class="row text-center">
+        <div class="col-sm-12 mb-4" *ngIf="isDaysOfUsage">
+          <label class="mr-3">Days Of Usage</label><input type="text" id="DaysOfUsageControl" class="daysOfUsageControl" (change)="calCulateFinalVal()" />
+        </div>
         <div class="col-sm-12">
           <button type="button" class="btn btn-applycharges btn-rerate" id="ApplyChargeButton" (click)="applyCharges($event)">Apply charges</button>
         </div>
