@@ -177,6 +177,8 @@
   border-radius: 30px;
   background-color: #007bff;
   color: #fff !important;
+  height: 60px;
+  width:100px;
 }
 
 .rerateResults {
@@ -204,4 +206,11 @@
   height: 40px;
   width: 90px;
   padding:5px 8px;
+}
+
+.outline-error{
+  border: 2px solid red !important; 
+}
+.outline-error .form-control{
+  border: none !important;
 }

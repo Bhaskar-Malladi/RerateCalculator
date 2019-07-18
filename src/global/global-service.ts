@@ -31,51 +31,13 @@ export class ReRateMasterService {
 export const ReRateMasaters: ReRateMasterService[] =
 
   [
-  {
-    country: "Angola",
-    note: "",
-    passport: true,
-    wificall: false,
-    daypass: false,
-    domesticeligibility: false,
-    planname: "",
-    cost: '',
-      ppurates: true,
-      adjustmentrate: 1000,
-      roamingcharges : 1000
-  },
-  {
-    country: "Airlines (on-air)",
-    note: "Only pay-per-use 'Airline' rates apply",
-    passport: false,
-    wificall: true,
-    daypass: false,
-    domesticeligibility: false,
-    planname: "",
-    cost:'',
-      ppurates: true,
-      adjustmentrate: 1000,
-      roamingcharges : 1000
-  },
-  {
-    country: "Aland Islands (Finland)",
-    note: "",
-    passport: true,
-    wificall: true,
-    daypass: true,
-    domesticeligibility: true,
-    planname: "",
-    cost:'',
-      ppurates: true,
-      adjustmentrate: 1000,
-      roamingcharges : 1000
-  },
-  {
+
+   {
     country: "Algeria",
     note: "this is another test note",
     passport: true,
     wificall: true,
-    daypass: true,
+    daypass: false,
     domesticeligibility: true,
     planname: "",
     cost:'',
@@ -86,7 +48,7 @@ export const ReRateMasaters: ReRateMasterService[] =
   {
     country: "Afghanistan",
     note: "",
-    passport: false,
+    passport: true,
     wificall: true,
     daypass: false,
     ppurates: true,
@@ -99,7 +61,7 @@ export const ReRateMasaters: ReRateMasterService[] =
   {
     country: "Airlines (on-air)",
     note: "Only pay-per-use Airline rates apply",
-    passport: true,
+    passport: false,
     wificall: true,
     daypass: false,
     ppurates: true,
@@ -109,19 +71,7 @@ export const ReRateMasaters: ReRateMasterService[] =
       adjustmentrate: 1000,
       roamingcharges : 1000
   },
-  {
-    country: "Aland Islands (Finland)",
-    note: "",
-    passport: true,
-    wificall: true,
-    daypass: true,
-    ppurates: true,
-    domesticeligibility: true,
-    planname: "",
-    cost:'',      
-      adjustmentrate: 1000,
-      roamingcharges : 1000
-  },
+ 
   {
     country: "Albania",
     note: "",
@@ -188,18 +138,19 @@ export const ReRateMasaters: ReRateMasterService[] =
       roamingcharges : 1000
   },
   {
-    country: "Antarctica (Marambio Base)",
+    country: "Antarctica (Marambio Base) ",
     note: "You can double-check passport eligibility at att.com/globalcountries",
     passport: false,
     wificall: true,
     daypass: false,
-    ppurates: true,
-    domesticeligibility: false,
+    ppurates: false,
+    domesticeligibility: true,
     planname: "",
     cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   },
+
   {
     country: "Antigua & Barbuda",
     note: "",
@@ -233,7 +184,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     wificall: true,
     daypass: false,
     ppurates: true,
-    domesticeligibility: true,
+    domesticeligibility: false,
     planname: "",
     cost:'',      
       adjustmentrate: 1000,
@@ -253,13 +204,13 @@ export const ReRateMasaters: ReRateMasterService[] =
       roamingcharges : 1000
   },
   {
-    country: "Ascension Island",
-    note: "You can double-check passport eligibility at att.com/globalcountries",
-    passport: false,
+    country: "Aland Islands (Finland)",
+    note: "",
+    passport: true,
     wificall: true,
-    daypass: false,
+    daypass: true,
     ppurates: true,
-    domesticeligibility: false,
+    domesticeligibility: true,
     planname: "",
     cost:'',      
       adjustmentrate: 1000,
@@ -400,7 +351,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     note: "",
     passport: true,
     wificall: true,
-    daypass: true,
+    daypass: false,
     ppurates: true,
     domesticeligibility: false,
     planname: "",
@@ -519,7 +470,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     wificall: true,
     daypass: false,
     ppurates: true,
-    domesticeligibility: false,
+    domesticeligibility: true,
     planname: "",
     cost:'',      
       adjustmentrate: 1000,
@@ -682,7 +633,7 @@ export const ReRateMasaters: ReRateMasterService[] =
   }, 
   {
     country: "Christmas Island",
-    note: "",
+    note: "You can double-check passport eligibility at att.com/globalcountries",
     passport: false,
     wificall: true,
     daypass: false,
@@ -708,7 +659,7 @@ export const ReRateMasaters: ReRateMasterService[] =
   }, 
   {
     country: "Comoros",
-    note: "",
+    note: "You can double-check passport eligibility at att.com/globalcountries",
     passport: false,
     wificall: true,
     daypass: false,
@@ -786,10 +737,10 @@ export const ReRateMasaters: ReRateMasterService[] =
   }, 
   {
     country: "Cruise Ships",
-    note: "Go to att.com/cruiseships to validate ship participates in AT&T plans",
+    note: "",
     passport: false,
     wificall: true,
-    daypass: true,
+    daypass: false,
     ppurates: true,
     domesticeligibility: false,
     planname: "",
@@ -830,7 +781,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     wificall: true,
     daypass: false,
     ppurates: true,
-    domesticeligibility: true,
+    domesticeligibility: false,
     planname: "",
     cost:'',      
       adjustmentrate: 1000,
@@ -863,12 +814,12 @@ export const ReRateMasaters: ReRateMasterService[] =
   }, 
   {
     country: "Djibouti",
-    note: "",
+    note: "You can double-check passport eligibility at att.com/globalcountries",
     passport: false,
     wificall: true,
     daypass: false,
     ppurates: true,
-    domesticeligibility: true,
+    domesticeligibility: false,
     planname: "",
     cost:'',      
       adjustmentrate: 1000,
@@ -1020,7 +971,7 @@ export const ReRateMasaters: ReRateMasterService[] =
   }, 
   {
     country: "Ethiopia",
-    note: "",
+    note: "You can double-check passport eligibility at att.com/globalcountries",
     passport: false,
     wificall: true,
     daypass: false,
@@ -1235,7 +1186,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     wificall: true,
     daypass: false,
     ppurates: true,
-    domesticeligibility: true,
+    domesticeligibility: false,
     planname: "",
     cost:'',      
       adjustmentrate: 1000,
@@ -1274,7 +1225,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     wificall: true,
     daypass: false,
     ppurates: true,
-    domesticeligibility: true,
+    domesticeligibility: false,
     planname: "",
     cost:'',      
       adjustmentrate: 1000,
@@ -1320,7 +1271,7 @@ export const ReRateMasaters: ReRateMasterService[] =
       roamingcharges : 1000
   }, 
   {
-    country: "Guinea - Bissau",
+    country: "Guinea-Bissau",
     note: "",
     passport: false,
     wificall: true,
@@ -1426,8 +1377,8 @@ export const ReRateMasaters: ReRateMasterService[] =
   {
     country: "Indonesia",
     note: "",
-    passport: false,
-    wificall: false,
+    passport: true,
+    wificall: true,
     daypass: false,
     ppurates: true,
     domesticeligibility: false,
@@ -1909,14 +1860,15 @@ export const ReRateMasaters: ReRateMasterService[] =
     note: "Roam Mexico! - Available for customers on 15GB+ Mobile Share Value and 10GB+ Mobile Share Advantage",
     passport: true,
     wificall: true,
-    daypass: false,
+    daypass: true,
     ppurates: true,
-    domesticeligibility: false,
+    domesticeligibility: true,
     planname: "",
     cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
+ 
   {
     country: "Micronesia",
     note: "You can double-check passport eligibility at att.com/globalcountries",
@@ -1969,6 +1921,7 @@ export const ReRateMasaters: ReRateMasterService[] =
       adjustmentrate: 1000,
       roamingcharges : 1000
   }, 
+
   {
     country: "Montenegro",
     note: "",
@@ -2409,7 +2362,7 @@ export const ReRateMasaters: ReRateMasterService[] =
   
   {
     country: "Russia",
-    note: "Free roaming in Russia for customer during the World Cup - June 14 - July 15, 2018. See myCSP *672957 for details!",
+    note: "",
     passport: true,
     wificall: true,
     daypass: false,
@@ -2464,7 +2417,7 @@ export const ReRateMasaters: ReRateMasterService[] =
   }, 
   
   {
-    country: "Säo Tomé & Principe",
+    country: "Sao Tomé & Principe",
     note: "",
     passport: true,
     wificall: true,
@@ -2762,7 +2715,7 @@ export const ReRateMasaters: ReRateMasterService[] =
   }, 
   
   {
-    country: "t. Pierre & Miquelon",
+    country: "St. Pierre & Miguelon",
     note: "You can double-check passport eligibility at att.com/globalcountries",
     passport: false,
     wificall: true,
@@ -2773,8 +2726,7 @@ export const ReRateMasaters: ReRateMasterService[] =
     cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
-  }, 
-  
+  },   
 
   {
     country: "St. Vincent & the Grenadines",
@@ -3205,7 +3157,214 @@ export const ReRateMasaters: ReRateMasterService[] =
     cost:'',      
       adjustmentrate: 1000,
       roamingcharges : 1000
-  },   
+  },  
+  
+  {
+    country: "Curacao",
+    note: "",
+    passport: true,
+    wificall: true,
+    daypass: true,
+    ppurates: true,
+    domesticeligibility: true,
+    planname: "",
+    cost:'',      
+      adjustmentrate: 1000,
+      roamingcharges : 1000
+  }, 
+  {
+    country: "Easter Island",
+    note: "You can double-check passport eligibility at att.com/globalcountries",
+    passport: false,
+    wificall: true,
+    daypass: false,
+    ppurates: true,
+    domesticeligibility: false,
+    planname: "",
+    cost:'',      
+      adjustmentrate: 1000,
+      roamingcharges : 1000
+  }, 
+  {
+    country: "Guernsey",
+    note: "",
+    passport: true,
+    wificall: true,
+    daypass: true,
+    ppurates: true,
+    domesticeligibility: true,
+    planname: "",
+    cost:'',      
+      adjustmentrate: 1000,
+      roamingcharges : 1000
+  }, 
+  {
+    country: "Isle of Man",
+    note: "",
+    passport: true,
+    wificall: true,
+    daypass: true,
+    ppurates: true,
+    domesticeligibility: true,
+    planname: "",
+    cost:'',      
+      adjustmentrate: 1000,
+      roamingcharges : 1000
+  }, 
+  {
+    country: "Ivory Coast (Cote D'Ivoire)",
+    note: "",
+    passport: true,
+    wificall: true,
+    daypass: false,
+    ppurates: true,
+    domesticeligibility: false,
+    planname: "",
+    cost:'',      
+      adjustmentrate: 1000,
+      roamingcharges : 1000
+  }, 
+  {
+    country: "Jersey",
+    note: "",
+    passport: true,
+    wificall: true,
+    daypass: true,
+    ppurates: true,
+    domesticeligibility: true,
+    planname: "",
+    cost:'',      
+      adjustmentrate: 1000,
+      roamingcharges : 1000
+  }, 
+  {
+    country: "Kosovo",
+    note: "You can double-check passport eligibility at att.com/globalcountries",
+    passport: false,
+    wificall: true,
+    daypass: false,
+    ppurates: true,
+    domesticeligibility: false,
+    planname: "",
+    cost:'',      
+      adjustmentrate: 1000,
+      roamingcharges : 1000
+  }, 
+  {
+    country: "Montenegro",
+    note: "",
+    passport: true,
+    wificall: true,
+    daypass: true,
+    ppurates: true,
+    domesticeligibility: true,
+    planname: "",
+    cost:'',      
+      adjustmentrate: 1000,
+      roamingcharges : 1000
+  }, 
+  {
+    country: "North Korea",
+    note: "",
+    passport: false,
+    wificall: false,
+    daypass: false,
+    ppurates: false,
+    domesticeligibility: false,
+    planname: "",
+    cost:'',      
+      adjustmentrate: 1000,
+      roamingcharges : 1000
+  }, 
+  {
+    country: "Palestinian Authority",
+    note: "",
+    passport: true,
+    wificall: true,
+    daypass: true,
+    ppurates: true,
+    domesticeligibility: true,
+    planname: "",
+    cost:'',      
+      adjustmentrate: 1000,
+      roamingcharges : 1000
+  }, 
+  {
+    country: "Serbia",
+    note: "",
+    passport: true,
+    wificall: true,
+    daypass: true,
+    ppurates: true,
+    domesticeligibility: true,
+    planname: "",
+    cost:'',      
+      adjustmentrate: 1000,
+      roamingcharges : 1000
+  }, 
+  {
+    country: "South Korea",
+    note: "February 1, 2018 - March 20, 2018 - daily fee for IDP waived - all days in South Korea during this time do not count towards 'days with usage' ",
+    passport: true,
+    wificall: true,
+    daypass: true,
+    ppurates: true,
+    domesticeligibility: true,
+    planname: "",
+    cost:'',      
+      adjustmentrate: 1000,
+      roamingcharges : 1000
+  }, 
+  {
+    country: "South Sudan",
+    note: "",
+    passport: true,
+    wificall: true,
+    daypass: false,
+    ppurates: true,
+    domesticeligibility: false,
+    planname: "",
+    cost:'',      
+      adjustmentrate: 1000,
+      roamingcharges : 1000
+  },
+  
+  {
+    country: "St. Barthelemy",
+    note: "",
+    passport: true,
+    wificall: true,
+    daypass: true,
+    ppurates: true,
+    domesticeligibility: true,
+    planname: "",
+    cost:'',      
+      adjustmentrate: 1000,
+      roamingcharges : 1000
+  },
+  {
+    country: "Vatican City",
+    note: "",
+    passport: true,
+    wificall: true,
+    daypass: true,
+    ppurates: true,
+    domesticeligibility: true,
+    planname: "",
+    cost:'',      
+      adjustmentrate: 1000,
+      roamingcharges : 1000
+  },
+
+
+
+
+
+
+
+
+
+  
 
   ]
 
